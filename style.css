@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fbfbfd;
+}
+nav{
+    background-color: #323232;
+    height: 44px;
+    
+
+}
+.menu{
+    
+    margin: 0 auto;
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+   
+}
+.menu ul{
+    
+    width: 100%;
+    margin: 0;
+    padding-right: 0;
+    display: flex;
+    background-color: #323232;
+     position: fixed;
+    justify-content: space-between;
+}
+.menu ul li{
+list-style: none;
+}
+.menu ul li,
+.menu ul li a{
+    text-decoration: none;
+    color: #c1c1c4;
+    background-color: #323232;
+
+    line-height: 44px;
+    transition: 0.5s;
+}
+.menu ul li  .fa.fa-apple{
+    font-size: 20px;
+    background-color: #323232;
+
+}
+.menu ul li  .fa.fa-search ,.fa.fa-shopping-basket{
+    background-color: #323232;
+
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+#covid-19{
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+
+}
+#covid-19 ,h5 {
+    text-align: center;
+    background: #0071e3;
+    color: white;
+   
+
+}
+h5:hover{
+    text-decoration: underline;
+} 
+#Shop_online{
+    background: #f5f5f7;
+    line-height: 44px;
+    color: #555557;
+    text-align: center;
+    font-size: 13px;
+}
+span a{
+   color: #0071e3;
+   text-decoration: none;
+   background: #f5f5f7;
+
+
+}
+span a:hover{
+    text-decoration: underline;
+}
+.section_1{
+    text-align: center;
+}
+#iPhone_12{
+    font-size: 50px;
+    color: #262626;
+    font-weight: bold;
+}
+#Blast_past_fast{
+    color: #262626;
+    font-size: 26px;
+    line-height: 44px;
+}
+#From{
+    color: #9d9c9c;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#Learn_more{
+    line-height: 50px;
+    font-size: 21px;
+    color:#0071e3 ;
+    transition: 0.5s;
+}
+#Learn_more:hover  {
+   text-decoration: underline;
+}
+#Buy{
+    color:#0071e3 ;
+    transition: 0.5s;
+    font-size: 21px;
+
+}
+#Buy:hover{
+    text-decoration: underline;
+
+}
+.section_2{
+    text-align: center;
+    background-color: black;
+}
+#iPhone_12_1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    background-color: black;
+    
+
+}
+#leap_year{
+    font-size: 26px;
+    line-height: 44px;
+    color: #fff;
+    background-color: black;
+
+}
+#before{
+    color: #9d9c9c;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: black;
+
+}
+#Learn_more1{
+    line-height: 50px;
+    font-size: 21px;
+    color:#0071e3 ;
+    transition: 0.5s;
+    background-color: black;
+
+}
+#Buy1{
+    color:#0071e3 ;
+    transition: 0.5s;
+    font-size: 21px;
+    background-color: black;
+
+}
+#Buy1:hover{
+    text-decoration: underline;
+
+}
+#Learn_more1:hover  {
+    text-decoration: underline;
+ }
+.Card{
+    background-color: #fbfbfd;
+    text-decoration: none;
+    text-align: center;
+
+ }
+ 
+ .section_3{
+     text-align: center;
+ }
+#Save{
+    color: #4d4c4c;
+    font-size: 28px;
+    
+} 
+#Learn_more2{
+    line-height: 50px;
+    font-size: 21px;
+    color:#0071e3 ;
+    transition: 0.5s;
+
+}
+#Learn_more2:hover  {
+    text-decoration: underline;
+ }
+ #Apply{
+    color:#0071e3 ;
+    transition: 0.5s;
+    font-size: 21px;
+
+} 
+#Apply:hover{
+    text-decoration: underline;
+}
+#Exclusions{
+    font-size: 13px;
+    color: #7e7d7d;
+}
+.sec4{
+    text-decoration: none;
+}
+.section_4{
+    display: flex;
+    text-align: center;
+    background: #fbfbfd;
+    
+}
+#iPad{
+    font-size: 50px;
+    color: #262626;
+    font-weight: 550;
+}
+#Powerful{
+    color: #262626;
+    font-size: 20px;
+    line-height: 44px;
+
+}
+#Learn_more3{
+    line-height: 50px;
+    font-size: 18px;
+    color:#0071e3 ;
+    transition: 0.5s;
+
+}
+#Learn_more3:hover  {
+    text-decoration: underline;
+ }
+ #Buy2{
+    color:#0071e3 ;
+    transition: 0.5s;
+    font-size: 18px;
+
+} 
+#Buy2:hover{
+    text-decoration: underline;
+}
+#Series{
+   color: rgb(143, 7, 7);
+   background-color: black;
+   font-size: 12px;
+   letter-spacing: 1px;
+   font-weight: 600;
+}
+.subsec4{
+    text-decoration: none;
+    
+}
+#i7{
+    background-color: black;
+    width: 7%;
+    height: 6%;
+}
+#i6{
+   background-color: black;
+}
+#Watch{
+    font-size: 28px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+#future{
+    background-color: black;
+    color: white;
+    line-height: 44px;
+    font-size: 20px;
+}
+#Learn_more4{
+    line-height: 50px;
+    font-size: 15px;
+    color:#0071e3 ;
+    transition: 0.5s;
+    background-color: black;
+
+}
+#Learn_more4:hover  {
+    text-decoration: underline;
+ }
+ #Buy3{
+    color:#0071e3 ;
+    transition: 0.5s;
+    font-size: 15px;
+    background-color: black;
+
+} 
+#Buy3:hover{
+    text-decoration: underline;
+}
+.section_5{
+    display: flex;
+    text-align: center;
+    
+}
+#MacBook{
+    background-color: black;
+    color: white;
+    font-size: 34px;
+    font-weight: 550;
+
+}
+.sec5{
+   text-decoration: none;
+   background-color: black
+}
+#Power{
+    color: white;
+    background-color: black;
+}  
+#Learn_more5{
+    line-height: 50px;
+    font-size: 15px;
+    color:#0071e3 ;
+    transition: 0.5s;
+    background-color: black;
+
+}
+#Learn_more5:hover  {
+    text-decoration: underline;
+ }
+ #Buy4{
+    color:#0071e3 ;
+    transition: 0.5s;
+    font-size: 15px;
+    background-color: black;
+
+} 
+#Buy4:hover{
+    text-decoration: underline;
+}
+#i8{
+    background: black;
+}
+
+#black{
+    background-color: #fbfbfd;
+    width: 5%;
+    height: 4%;
+}
+.sub_section_5{
+    text-align: center;
+}
+.subsec5{
+    text-decoration: none;
+}
+#Fitness{
+    font-size: 30px;
+    background-color: #fbfbfd;
+    color: black;
+    font-weight: 600;
+}
+#everyone{
+    color: #262626;
+    line-height: 18px;
+}
+#Learn_more6{
+    line-height: 50px;
+    font-size: 15px;
+    color:#0071e3 ;
+    transition: 0.5s;
+    
+
+}
+#Learn_more6:hover  {
+    text-decoration: underline;
+ }
+ #Buy5{
+    color:#0071e3 ;
+    transition: 0.5s;
+    font-size: 15px;
+    
+
+} 
+#Buy5:hover{
+    text-decoration: underline;
+}
+.section_6{
+    display: flex;
+    text-align: center;
+}
+.sec6{
+    text-decoration: none;
+    
+}
+#black1{
+    background-color: #fbfbfd;
+    width: 4%;
+    height: 4%;
+}
+#Bundle{
+    color:#262626 ;
+}
+#one{
+    font-size: 35px;
+    background-color: #fbfbfd;
+    color: black;
+    font-weight: 600;
+}
+#service{
+    color: #262626;
+font-size: 20px;
+line-height: 40px;
+font-weight: normal;
+}
+.section8{
+    text-align: center;
+
+    padding-left: 30px;
+    padding-top: 10px;
+}
